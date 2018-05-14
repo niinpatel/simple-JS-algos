@@ -4,16 +4,29 @@
  * ##
  * ### and so on..
  * @param n
- */
-function printStairs(n) {
+//  */
+// function printStairs(n) {
+//
+//     for(let i = 0; i <= n; i++){
+//         let hashes = "";
+//
+//         for(let j = 0; j < i; j++){
+//             hashes = hashes + "#"
+//         }
+//
+//         console.log(hashes);
+//
+//     }
+//
+// }
+//
+//
+// printStairs(5)
 
-    for(let i = 1; i <= n; i++){
 
-        console.log("#".repeat(i));
 
-    }
 
-}
+
 
 /**
  * Prints pattern -
@@ -30,6 +43,4 @@ function printPyramid(n){
     }
 }
 
-
-printStairs(7);
-printPyramid(7);
+printPyramid(5);

@@ -20,14 +20,13 @@ function checkAnagrams(string1, string2) {
     }
     return true;
 }
-
 console.log(checkAnagrams("William Shakespeare","I am a weakish speller"));
 
 console.log(checkAnagrams("nitin","nitis"));
 
 console.log(checkAnagrams("dormitory", "dirty room"));
 
-longAnagram1 = "Jabberwocky \n" +
+Anagram1 = "Jabberwocky \n" +
     "\n" +
     "`Twas brillig, and the slithy toves \n" +
     "Did gyre and gimble in the wabe; \n" +
@@ -65,7 +64,7 @@ longAnagram1 = "Jabberwocky \n" +
     "And the mome raths outgrabe.\n" +
     "\n";
 
-longAnagram2 = "The author Charles Lutwidge Dodgson, \n" +
+Anagram2 = "The author Charles Lutwidge Dodgson, \n" +
     "Better known by the name Lewis Carroll, \n" +
     "Though vehement mathematician, church theologist, logician, \n" +
     "Misbehaved, exhibiting bawdy photos controversial. \n" +
@@ -91,4 +90,4 @@ longAnagram2 = "The author Charles Lutwidge Dodgson, \n" +
     "Just stalemated clarification!\n" +
     "\n";
 
-console.log(checkAnagrams(longAnagram1, longAnagram2));  // example from http://www.anagrammy.com/literary/dk/poems-dk8.html
+console.log(checkAnagrams(Anagram1, Anagram2));  // example from http://www.anagrammy.com/literary/dk/poems-dk8.html
