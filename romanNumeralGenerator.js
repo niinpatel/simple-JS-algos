@@ -9,7 +9,7 @@ function convertToRoman(num) {
             return "IV"
         }
         else {
-            return "V" + convertToRoman(num - 5)
+            return "V" + convertToRoman(num%5)
         }
     }
 
@@ -17,7 +17,9 @@ function convertToRoman(num) {
         if(num < 10){
             return "IX"
         }
-        return "X".repeat(Math.floor(num/10)) + convertToRoman(num%10)
+        else {
+            return "X".repeat(Math.floor(num/10)) + convertToRoman(num%10)
+        }
     }
 
     if(num < 90){
@@ -61,6 +63,6 @@ function convertToRoman(num) {
 
 }
 
-console.log(convertToRoman(3999));
+console.log(convertToRoman(900));
 console.log(convertToRoman(99));
 console.log(convertToRoman(990));
