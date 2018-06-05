@@ -56,10 +56,11 @@ function convertToRoman(num) {
             return "M".repeat(Math.floor(num/1000)) + convertToRoman(num%1000)
         }
     }
+
     return "Could not generate roman numeral for the given input";
 
 }
 
 console.log(convertToRoman(3999));
 console.log(convertToRoman(99));
-console.log(convertToRoman(389));
+console.log(convertToRoman(990));
