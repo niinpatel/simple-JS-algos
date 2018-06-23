@@ -24,4 +24,7 @@ function wordNum(num) {
     return 'Input should be less than 1000'
 }
 
-console.log(wordNum(666));
+
+for(let i = 0; i < 1000; i++){
+    console.log(wordNum(i))
+}
