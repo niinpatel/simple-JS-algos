@@ -7,3 +7,5 @@
 5. Number to Roman Converter (up to 4999)
 6. Print a 3D Matrix. 
 7. Check if a number is Narcissistic
+
+__and many more...__ 
